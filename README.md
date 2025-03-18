@@ -2,15 +2,23 @@
 
 A new Flutter project.
 
+I am able to complete this project using some online sources like w3s and blackbox.ai where it helped me creating the library folder.
+
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+In this lab we Fetch Data from the Pokémon TCG API
 
-A few resources to get you started if this is your first Flutter project:
+Utilize the Pokémon TCG API (https://pokemontcg. io/) to retrieve a list of Pokémon cards.
+The API provides JSON data with card information such as names, images, and IDs.
+You would generally employ fetch() (in JavaScript) or an HTTP client (like Axios) to obtain this data.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Displaying the Cards in a ListView
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Implement a ListView component (according to your framework, e. g. , React, Flutter, or Android's native ListView) to show the retrieved Pokémon card images along with their titles.
+Each entry in the ListView would present a thumbnail image alongside the name of the Pokémon.
+
+Handling Click Events for Enlarging Images
+
+When a user clicks on a card image, modify the UI to present a larger version of the image.
+This can be achieved through a modal, a different screen, or an overlay.
+In React, you may utilize state (useState) to monitor the chosen image and showcase it in an enlarged format.
