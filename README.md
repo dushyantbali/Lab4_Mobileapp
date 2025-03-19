@@ -3,6 +3,7 @@
 A new Flutter project.
 
 I am able to complete this project using some online sources like w3s and blackbox.ai where it helped me creating the library folder.
+I also took help from my class-mate Manjot singh in writing the code for main.dart file as I have mentioned in the file itself.
 
 ## Getting Started
 
